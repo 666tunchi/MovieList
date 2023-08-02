@@ -1,0 +1,263 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(50px, 1fr);
+    margin: 10px;
+    size-adjust: 30%;
+    height:80%;
+    }
+    .parent1 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        grid-auto-rows: minmax(50px, 1fr);
+        margin: 10px;
+        size-adjust: 30%;
+        height:80%;
+        }
+    
+    
+   
+    body{
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(101,9,121,1) 72%, rgba(235,0,255,1) 100%) !important;      
+    }
+.card-text{
+        font-size:x-small;
+}
+
+html {
+        scroll-behavior: smooth;
+      }
+
+.accordion {
+    background-color: rgb(53, 46, 46);
+    color:white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    
+    
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc;
+    color: black;
+  }
+  
+  .panel {
+    padding: 0 18px;
+  background-color: rgb(10, 10, 10);
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.8s ease-out;
+
+  }
+
+@media only screen   
+and (min-width: 320px)   
+{ 
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        grid-auto-rows: minmax(50px, 1fr);
+        margin: 10px;
+        size-adjust: 30%;
+        height:80%;
+        
+        }
+
+     .parent1 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        grid-auto-rows: minmax(50px, 1fr);
+        margin: 10px;
+        size-adjust: 30%;
+        height:80%;
+        }
+        .card.bg-dark.bg-gradient.text-white.mb-3{
+            width: 230px;
+            margin-left: 20px;
+
+           }
+       
+        body{
+            background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(101,9,121,1) 72%, rgba(235,0,255,1) 100%) !important;      
+        }
+    
+    
+} 
+   
+@media only screen   
+and (min-width : 375px)   
+
+{ .parent {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(50px, 1fr);
+    margin: 10px;
+    size-adjust: 30%;
+    height:80%;
+    }
+    
+    .card.bg-dark.bg-gradient.text-white.mb-3{
+        width: 255px;
+        margin-left: 45px;
+
+       }
+    body{
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(101,9,121,1) 72%, rgba(235,0,255,1) 100%) !important;      
+    }
+} 
+@media only screen   
+and (min-width : 425px)   
+
+{ .parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(50px, 1fr);
+    margin: 10px;
+    size-adjust: 30%;
+    height:80%;
+    }
+    .card.bg-dark.bg-gradient.text-white.mb-3{
+        width: 175px;
+        margin-left: 20px;
+        height: 520px;
+        
+
+       }
+      
+    body{
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(101,9,121,1) 72%, rgba(235,0,255,1) 100%) !important;      
+    }
+}
+@media only screen   
+and (min-width : 540px)   
+
+{ .parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(50px, 1fr);
+    margin: 10px;
+    size-adjust: 30%;
+    height:80%;
+    }
+    .card.bg-dark.bg-gradient.text-white.mb-3{
+        width: 205px;
+        margin-left: 20px;
+        height: 520px;
+        
+
+       }
+      
+    body{
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(101,9,121,1) 72%, rgba(235,0,255,1) 100%) !important;      
+    }
+}
+@media only screen   
+and (min-width : 768px)   
+
+{ .parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(50px, 1fr);
+    margin: 10px;
+    size-adjust: 30%;
+    height:80%;
+    }
+    .card.bg-dark.bg-gradient.text-white.mb-3{
+        width: auto;
+       height: 210px;
+        
+
+       }
+       .parent1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        grid-auto-rows: minmax(50px, 1fr);
+        margin: 10px;
+        size-adjust: 30%;
+        height:80%;
+       }
+        
+   
+   
+    body{
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(101,9,121,1) 72%, rgba(235,0,255,1) 100%) !important;      
+    }
+}
+@media only screen   
+and (min-width : 1024px)   
+
+{ .parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(50px, 1fr);
+    margin: 10px;
+    size-adjust: 10%;
+    height:80%;
+    }
+    .parent1 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        grid-auto-rows: minmax(50px, 1fr);
+        margin: 10px;
+        size-adjust: 30%;
+        height:80%;
+        }
+        .card.bg-dark.bg-gradient.text-white.mb-3{
+            width: auto;
+           height: 230px;
+            
+    
+           } 
+   
+    body{
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(101,9,121,1) 72%, rgba(235,0,255,1) 100%) !important;      
+    }
+}
+@media only screen   
+and (min-width: 1440px)   
+{ 
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        grid-auto-rows: minmax(50px, 1fr);
+        margin: 10px;
+        size-adjust: 30%;
+        height:80%;
+        }
+        .card.bg-dark.bg-gradient.text-white.mb-3{
+            width: auto;
+           height: auto;
+            
+    
+           } 
+       
+        body{
+            background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(101,9,121,1) 72%, rgba(235,0,255,1) 100%) !important;      
+        }
+}
